@@ -26,21 +26,4 @@ In seperate terminals:
 
 ### Launch Rtabmap node:
 ``roslaunch my_robot mapping.launch``  
-``db``  fill will be located in the ~Udacity-RoboND-Map-My-World/src/my_robot/map
-
-### Data Base Viewer:  
-View generated db:
-``rtabmap-databaseViewer ~/.ros/rtabmap.db``
-
-* Yes to using the database parameters  
-* View -> Constraint View  
-* View -> Graph View  
-  
-Generated db filed was uploaded to [Google Drive](https://drive.google.com/file/d/13_yOIGWSuUqKr1J1IbemEl1dZ3Xq-hFd/view?usp=sharing).
-
-<img src="DB_Viewer.jpg" width = "800"/>
-
-## Option Localization  
-``roslaunch my_robot localization.launch``    
-rviz configuration: localization.rviz
-
+``db``  The generated map file will be located in the ~Udacity-RoboND-Map-My-World/src/my_robot/map
